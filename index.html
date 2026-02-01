@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>For You ❤️</title>
-  <style>
-    body { text-align:center; font-family:Arial; background:#ffe6eb; padding-top:80px; }
-    button { padding:15px 25px; font-size:18px; border-radius:10px; background:#ff4d6d; color:white; border:none; cursor:pointer; }
-  </style>
+<title>For You ❤️</title>
+
+<style>
+body {
+  text-align:center;
+  font-family:Arial;
+  background:#ffe6eb;
+  padding-top:80px;
+}
+
+.letter {
+  display:none;
+  background:white;
+  width:60%;
+  margin:auto;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 0 12px rgba(0,0,0,0.2);
+}
+
+button {
+  padding:15px 25px;
+  font-size:18px;
+  border-radius:10px;
+  border:none;
+  background:#ff4d6d;
+  color:white;
+  cursor:pointer;
+  margin-top:20px;
+}
+
+#noBtn {
+  position:relative;
+  background:#8338ec;
+}
+</style>
 </head>
+
 <body>
+
+<!-- LETTER 1 -->
+<div class="letter" id="letter1">
   <h1>Hi Baby!! 💌</h1>
   <p>Di pwedeng ikaw lang magcocode WAHAHAHAHA love you.</p>
-  <a href="page2.html"><button>Next</button></a>
-</body>
-</html>
+  <button onclick="nextLetter()">Next</button>
+</div>
+
+<!-- LETTER 2 -->
+<div class="letter" id="letter2">
+  <h1>Letter 2</h1>
+  <p>Every day with you is my favorite day.</p>
+  <button onclick="nextLetter()">Next</button>
+</div>
+
+<!-- LETTER 3 -->
+<div class="letter" id="letter3">
+  <h1>Letter 3</h1>
+  <p>Thank you for being patient and loving.</p>
+  <button onclick="nextLetter()">Next</button>
+</div>
+
+<!-- LETTER 4 -->
+<div class="letter" id="letter4">
+  <h1>Letter 4</h1>
+  <p>One more thing I want to ask…</p>
+  <button onclick="nextLetter()">Next</button>
+</div>
+
+<!-- LETTER 5 FINAL -->
+<div
